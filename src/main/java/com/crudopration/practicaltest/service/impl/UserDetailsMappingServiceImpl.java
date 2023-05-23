@@ -31,14 +31,6 @@ public class UserDetailsMappingServiceImpl implements UserDetailsMappingService{
         return userDetailsMappingRepository.findByUserIdAndStatusIn(userId,status);
     }
     
-//    @Override
-//    public User findById(String id){
-////      return  userDetailsMappingRepository.findByUserDetaisId(id);
-//    }
-//    
-//    @Override
-//    public List<User> getAllUserList(List<String> status){
-////        return userDetailsMappingRepository.getAllUserDetailsList(status);
-//    }
+
     
 }

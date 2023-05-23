@@ -11,8 +11,5 @@ public interface UserDetailsMappingService {
     List<UserDetailsMapping> findByUserIdAndStatusIn(String userId, List<String> status);
  
 
-//    public User findById(String id);
-// 
-//    public List<User> getAllUserList(List<String> status);
 }
 
